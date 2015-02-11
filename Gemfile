@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', path: "/home/henrik/Code/rails"
+gem 'rails', path: "/home/hnygren/Code/rails"
 gem 'arel', github: "rails/arel"
 
 # Use sqlite3 as the database for Active Record
@@ -37,7 +37,7 @@ gem 'byebug'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  
+
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', github: "rails/web-console"
@@ -49,4 +49,3 @@ group :development, :test do
   # method from the console
   gem 'method_source'
 end
-

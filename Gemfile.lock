@@ -23,7 +23,7 @@ GIT
       sprockets-rails (>= 2.0, < 4.0)
 
 PATH
-  remote: /home/henrik/Code/rails
+  remote: /home/hnygren/Code/rails
   specs:
     actionmailer (5.0.0.alpha)
       actionpack (= 5.0.0.alpha)
@@ -96,7 +96,7 @@ GEM
     debugger-linecache (1.2.0)
     erubis (2.7.0)
     execjs (2.2.2)
-    globalid (0.3.0)
+    globalid (0.3.2)
       activesupport (>= 4.1.0)
     hike (1.2.3)
     i18n (0.7.0)

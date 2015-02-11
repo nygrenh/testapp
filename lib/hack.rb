@@ -16,10 +16,10 @@ class Hack
     partial = false
     locals = []
 
-    rrr = ActionView::OptimizedFileSystemResolver.new('/home/henrik/Code/testapp/app/views')
+    rrr = ActionView::OptimizedFileSystemResolver.new('/home/hnygren/Code/testapp/app/views')
     #rrr = ActionController::Base.view_paths
 
-    view_path = "/home/henrik/Code/testapp/app/views/people/index.html.erb"
+    view_path = "/home/hnygren/Code/testapp/app/views/people/index.html.erb"
     erb = ERB.new File.read view_path
 
     cache = rrr.instance_variable_get(:@cache)
@@ -34,5 +34,3 @@ class Hack
     end
   end
 end
-
-Hack.run

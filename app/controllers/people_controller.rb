@@ -3,6 +3,8 @@ class PeopleController < ApplicationController
 
   # GET /people
   def index
+    I18n.default_locale = :cn
+    I18n.locale = :fi
     @people = Person.all
     @kappa = 'Kappa'
     @something = {name: 'Smith'}
