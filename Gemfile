@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', path: "/home/hnygren/Code/rails"
+gem 'rails', path: "/home/leju/Code/rails"
 gem 'arel', github: "rails/arel"
 
 # Use sqlite3 as the database for Active Record
