@@ -23,7 +23,7 @@ GIT
       sprockets-rails (>= 2.0, < 4.0)
 
 PATH
-  remote: /home/leju/Code/rails
+  remote: ~/Code/rails
   specs:
     actionmailer (5.0.0.alpha)
       actionpack (= 5.0.0.alpha)
