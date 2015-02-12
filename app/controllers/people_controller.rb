@@ -19,6 +19,10 @@ class PeopleController < ApplicationController
     @person = Person.new
   end
 
+  def assets
+    render 'people/assets/index.html.erb'
+  end
+
   # GET /people/1/edit
   def edit
   end
