@@ -7,7 +7,7 @@ class PeopleController < ApplicationController
     I18n.locale = :fi
     @people = Person.all
     @kappa = 'Kappa'
-    @something = {name: 'Smith'}
+    @something = { name: 'Smith' }
   end
 
   # GET /people/1
