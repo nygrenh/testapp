@@ -11,7 +11,8 @@
   </thead>
 
   <tbody>
-    <%= render @people %>
+    <%= render partial: "person", collection: @people, locals: {lol: "kek", haha: "bear", lala: "cat"} %>
+    <!-- <%= render partial: "person", collection: @people %> -->
   </tbody>
 </table>
 
