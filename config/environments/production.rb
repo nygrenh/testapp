@@ -29,7 +29,7 @@ Rails.application.configure do
   # yet still be able to expire them through the digest params.
   config.assets.digest = true
 
-  config.action_view.eager_load_templates = true
+  #config.action_view.eager_load_templates = true
   #config.action_view.cache_template_loading = false
 
   # `config.assets.precompile` and `config.assets.version` have moved to config/initializers/assets.rb
